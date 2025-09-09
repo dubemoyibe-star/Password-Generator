@@ -8,7 +8,7 @@ function generate(){
     input1El.value = ""
     input2El.value = ""
     
-for (let i = 0; i < 12; i++){
+for (let i = 0; i < 15; i++){
     let randomNumber = Math.floor(Math.random()*characters.length);
     let randomNumber2 = Math.floor(Math.random()*characters.length);
     let password1 =  characters[randomNumber];
