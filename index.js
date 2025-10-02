@@ -19,6 +19,9 @@ for (let i = 0; i < 15; i++){
 }
 }
 
+generateBtnEl = document.getElementById("generateBtn")
+generateBtnEl.addEventListener("click", generate)   
+
 
 
 
